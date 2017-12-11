@@ -1,0 +1,41 @@
+@import './animate.css';
+
+
+body{
+    margin: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+    animation: 1s zoomIn ease;
+}
+
+.square {
+    margin: 2px;
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 40px;
+    font-weight: lighter;
+    line-height: 34px;
+    height: 100px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+    animation: 1s zoomIn ease;
+}
+input:hover { 
+    cursor: pointer;
+}
+h2{
+    text-align: center;
+    animation: 2s bounceInDown ease;
+    font-style: oblique;
+    font-weight:normal;
+    font-size: 40px;    
+}
